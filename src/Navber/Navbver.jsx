@@ -66,7 +66,7 @@ const Navbver = () => {
                 </label>
                 </div>
                 {/* profile */}
-                <div className="p-2 bg-green-400 rounded-full">
+                <div className="p-2 bg-green-500 rounded-full">
                     <CgProfile size={20}/>
                 </div>
             </div>
@@ -74,7 +74,7 @@ const Navbver = () => {
         </div>
         {/* mobile device design */}
         {
-            open ? <div className="space-y-3 font-bold text-lg bg-green-300 text-white rounded-md mx-5 text-center p-4">
+            open ? <div className="space-y-3 font-serif font-bold text-lg bg-green-300 rounded-md mx-5 text-center p-4">
             {
                 menuData.map(menu => (<li className="list-none" key={menu.id}><Link to={menu.path}>{menu.name}</Link></li>))
             }
