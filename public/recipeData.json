@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "https://example.com/images/recipe1.jpg",
+      "recipe_image": "https://i.ibb.co.com/yf35d0J/download1.jpg",
       "recipe_id": 1,
       "recipe_name": "Spaghetti Carbonara",
       "short_description": "A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
@@ -9,7 +9,7 @@
       "calories": 570
     },
     {
-      "recipe_image": "https://example.com/images/recipe2.jpg",
+      "recipe_image": "https://i.ibb.co.com/7KzDXsq/download2.jpg",
       "recipe_id": 2,
       "recipe_name": "Chicken Caesar Salad",
       "short_description": "A refreshing salad with grilled chicken, romaine lettuce, and Caesar dressing.",
@@ -18,7 +18,7 @@
       "calories": 350
     },
     {
-      "recipe_image": "https://example.com/images/recipe3.jpg",
+      "recipe_image": "https://i.ibb.co.com/0Yv7x1n/download3.jpg",
       "recipe_id": 3,
       "recipe_name": "Beef Tacos",
       "short_description": "Mexican tacos filled with spiced beef, vegetables, and salsa.",
@@ -27,7 +27,7 @@
       "calories": 480
     },
     {
-      "recipe_image": "https://example.com/images/recipe4.jpg",
+      "recipe_image": "https://i.ibb.co.com/m6LswqY/download4.jpg",
       "recipe_id": 4,
       "recipe_name": "Vegan Buddha Bowl",
       "short_description": "A nourishing bowl of quinoa, veggies, and tahini dressing.",
@@ -36,7 +36,7 @@
       "calories": 400
     },
     {
-      "recipe_image": "https://example.com/images/recipe5.jpg",
+      "recipe_image": "https://i.ibb.co.com/ZfKgxxP/downlode5.jpg",
       "recipe_id": 5,
       "recipe_name": "Margherita Pizza",
       "short_description": "A simple pizza topped with tomatoes, mozzarella, and basil.",
@@ -45,7 +45,7 @@
       "calories": 600
     },
     {
-      "recipe_image": "https://example.com/images/recipe6.jpg",
+      "recipe_image": "https://i.ibb.co.com/zfDhrtS/download6.jpg",
       "recipe_id": 6,
       "recipe_name": "Blueberry Pancakes",
       "short_description": "Fluffy pancakes with fresh blueberries and maple syrup.",
@@ -54,7 +54,7 @@
       "calories": 420
     },
     {
-      "recipe_image": "https://example.com/images/recipe7.jpg",
+      "recipe_image": "https://i.ibb.co.com/fNMbwnD/download7.jpg",
       "recipe_id": 7,
       "recipe_name": "Grilled Salmon",
       "short_description": "Perfectly grilled salmon with a lemon-butter sauce.",
@@ -63,7 +63,7 @@
       "calories": 380
     },
     {
-      "recipe_image": "https://example.com/images/recipe8.jpg",
+      "recipe_image": "https://i.ibb.co.com/0rHqZnW/download8.jpg",
       "recipe_id": 8,
       "recipe_name": "Avocado Toast",
       "short_description": "A quick and healthy breakfast with mashed avocado on toast.",
@@ -72,7 +72,7 @@
       "calories": 250
     },
     {
-      "recipe_image": "https://example.com/images/recipe9.jpg",
+      "recipe_image": "https://i.ibb.co.com/Qdht9g3/download9.jpg",
       "recipe_id": 9,
       "recipe_name": "Chicken Stir-Fry",
       "short_description": "A flavorful stir-fry with chicken and vegetables.",
@@ -81,7 +81,7 @@
       "calories": 350
     },
     {
-      "recipe_image": "https://example.com/images/recipe10.jpg",
+      "recipe_image": "https://i.ibb.co.com/tm5vx5W/download10.jpg",
       "recipe_id": 10,
       "recipe_name": "Chocolate Brownies",
       "short_description": "Rich and fudgy brownies with a hint of vanilla.",
