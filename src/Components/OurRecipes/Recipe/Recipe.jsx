@@ -3,7 +3,7 @@ import { CiClock2 } from "react-icons/ci";
 import { IoFlameOutline } from "react-icons/io5";
 
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe,handelWantToCook}) => {
     const {recipe_image,recipe_name,short_description,ingredients,preparing_time,calories} = recipe;
     return (
         <div className="border-2 rounded-xl p-4">
@@ -15,7 +15,7 @@ const Recipe = ({recipe}) => {
                 <h3 className="text-lg font-bold font-serif">Ingredients: {ingredients.length}</h3>
                 <div>
                     {
-                        ingredients.map((item,index) =>(<li className="text-gray-500" key={index}>{item}</li>))
+                        ingredients.map((item,id) => <li className="text-gray-500" key={id}>{item}</li>)
                     }
                 </div>
                 <hr />
@@ -29,7 +29,7 @@ const Recipe = ({recipe}) => {
                         <p>{calories} calories</p>
                     </div>
                 </div>
-                <button className="py-2 px-8 rounded-full bg-green-500 font-medium font-mono">Want to Cook</button>
+                <button onClick={()=>handelWantToCook(recipe)} className="py-2 px-8 rounded-full bg-green-500 font-medium font-mono">Want to Cook</button>
             </div>
         </div>
     );
@@ -38,5 +38,6 @@ const Recipe = ({recipe}) => {
 export default Recipe;
 
 Recipe.propTypes ={
-    recipe: PropTypes.object.isRequired
+    recipe: PropTypes.object.isRequired,
+    handelWantToCook: PropTypes.func.isRequired
 }
