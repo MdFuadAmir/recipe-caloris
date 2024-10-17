@@ -29,7 +29,7 @@ const Recipe = ({recipe,handelWantToCook}) => {
                         <p>{calories} calories</p>
                     </div>
                 </div>
-                <button onClick={()=>handelWantToCook(recipe)} className="py-2 px-8 rounded-full bg-green-500 font-medium font-mono">Want to Cook</button>
+                <button onClick={()=>handelWantToCook(recipe)} className="py-2 px-8 rounded-full bg-green-400 font-medium font-mono">Want to Cook</button>
             </div>
         </div>
     );
