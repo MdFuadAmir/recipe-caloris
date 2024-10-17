@@ -34,16 +34,15 @@ const OurRecipies = () => {
         else{
             toast("Already coocking this item");
         }
-        const timeExist = cooking.find(cook => cook.recipe_id == items.recipe_id);
-        if(!timeExist){
-            const newTotal = totalTime + items.preparing_time;
-            setTotalTime(newTotal)
-        }
-        const caloriesExist = cooking.find(cook => cook.recipe_id == items.recipe_id);
-        if(!caloriesExist){
-            const newCalories = totalCalories + items.calories;
+        const newTotal = totalTime + items.preparing_time;
+        setTotalTime(newTotal)
+        
+        const newCalories = totalCalories + items.calories;
         setTotalCalories(newCalories)
-        } 
+    }
+    const handelRemove = (id) =>{
+        const newitems = myOrders.filter(items => items.recipe_id !== id );
+        setMyOrders(newitems);
     }
 
     
@@ -73,7 +72,7 @@ const OurRecipies = () => {
                         </div>
                         <div>
                             {
-                                myOrders.map((order) => <MyOrder key={order.id} handelCooking={handelCooking} order={order}></MyOrder>)
+                                myOrders.map((order) => <MyOrder key={order.id} handelCooking={handelCooking} order={order} handelRemove={handelRemove}></MyOrder>)
                             }
                         </div>
                         <ToastContainer />
